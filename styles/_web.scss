@@ -2,7 +2,7 @@
     @include section(0 0 0 50px);
 }
 
-@media screen and (max-width: 907px) {
+@media screen and (max-width: $bp) {
     .web {
         @include media-section(column);
     }

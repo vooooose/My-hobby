@@ -1,0 +1,15 @@
+.socials {
+    &__item {
+        color: #123c69;
+        font-size: 2.3rem;
+        display: inline-block;
+        transition: color, transform 0.6s ease 0s;
+        &:not(:last-child) {
+            margin-right: 50px;
+        }
+        &:hover {
+            color: $text-color;
+            transform: scale(1.5);
+        }
+    }
+}

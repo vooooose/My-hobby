@@ -2,7 +2,7 @@
     @include section(0 50px 0 0);
 }
 
-@media screen and (max-width: 907px) {
+@media screen and (max-width: $bp) {
     .other {
         @include media-section(column-reverse);
     }

@@ -3,7 +3,7 @@
     text-align: center;
     background-color: #edc7b7;
     &__title {
-        color: #ac3b61;
+        color: $text-color;
         font-size: 3rem;
         font-weight: 700;
         margin-bottom: 35px;
@@ -17,12 +17,12 @@
             margin-right: 50px;
         }
         &:hover {
-            color: #ac3b61;
+            color: $text-color;
         }
     }
 }
 
-@media screen and (max-width: 907px) {
+@media screen and (max-width: $bp) {
     .header {
         &__item:not(:last-child) {
             margin-right: 30px;
