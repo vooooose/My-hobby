@@ -1,0 +1,9 @@
+.kpop {
+    @include section(0 0 0 50px);
+}
+
+@media screen and (max-width: 907px) {
+    .kpop {
+        @include media-section(column);
+    }
+}

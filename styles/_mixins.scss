@@ -1,0 +1,35 @@
+@mixin section($mg) {
+    padding: 60px 0;
+    &__content {
+        max-width: 1060px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__text {
+        flex: 0 1 650px;
+        margin: $mg;
+    }
+    &__image {
+        font-size: 0;
+        max-width: 360px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@mixin media-section($flex-d) {
+    &__content {
+        flex-direction: $flex-d;
+    }
+    &__text {
+        margin: 0;
+        flex-basis: auto;
+        text-align: center;
+    }
+    &__image {
+        margin: 0 0 30px 0;
+    }
+}

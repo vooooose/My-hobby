@@ -1,0 +1,9 @@
+.sport {
+    @include section(0 50px 0 0);
+}
+
+@media screen and (max-width: 907px) {
+    .sport {
+        @include media-section(column-reverse);
+    }
+}
